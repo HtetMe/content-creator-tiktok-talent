@@ -87,3 +87,15 @@ image.addEventListener("touchend", (e) => {
 );
 
 revealItems.forEach((item) => revealObserver.observe(item));
+
+const photos = [
+  "assets/profile.jpg",
+  "assets/portfolio-01.jpg",
+  "assets/portfolio-02.jpg",
+  "assets/portfolio-03.jpg",
+  "assets/portfolio-04.jpg"
+];
+
+function changePhoto(index) {
+  document.getElementById("portfolioImage").src = photos[index];
+}
