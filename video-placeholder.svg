@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="KBZ acting video placeholder">
+  <rect width="900" height="1200" rx="64" fill="#201d24"/>
+  <circle cx="680" cy="210" r="96" fill="#ff5f8f"/>
+  <circle cx="220" cy="990" r="130" fill="#5bc8c2"/>
+  <path d="M390 500v220l190-110-190-110z" fill="#ffd166"/>
+  <rect x="120" y="100" width="660" height="1000" rx="48" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="8"/>
+  <text x="450" y="850" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">KBZ acting video</text>
+</svg>

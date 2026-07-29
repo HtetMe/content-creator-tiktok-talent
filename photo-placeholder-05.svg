@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Professional photo placeholder 5">
+  <rect width="900" height="700" rx="54" fill="#ffe5d8"/>
+  <circle cx="675" cy="175" r="110" fill="#ff8f70"/>
+  <rect x="120" y="130" width="560" height="390" rx="42" fill="#ffffff" opacity=".84"/>
+  <text x="450" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#201d24">Professional photo 05</text>
+</svg>
