@@ -71,18 +71,20 @@
 
   <div class="section-heading reveal">
     <p class="eyebrow">Photo Portfolio</p>
-    <h2>Creator moments and personal highlights.</h2>
+    <h2>Creator moments.</h2>
   </div>
 
-  <div class="photo-carousel">
+  <div class="photo-slider reveal">
 
-    <button class="arrow left" onclick="changePhoto(-1)">‹</button>
+    <img id="portfolioImage" src="assets/profile.jpg" alt="Htet Me Me Hlaing">
 
-    <div class="carousel-image">
-      <img id="portfolioImage" src="assets/profile.jpg" alt="Htet Me Me Hlaing photo">
+    <div class="photo-dots">
+      <button onclick="changePhoto(0)"></button>
+      <button onclick="changePhoto(1)"></button>
+      <button onclick="changePhoto(2)"></button>
+      <button onclick="changePhoto(3)"></button>
+      <button onclick="changePhoto(4)"></button>
     </div>
-
-    <button class="arrow right" onclick="changePhoto(1)">›</button>
 
   </div>
 
