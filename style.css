@@ -805,3 +805,17 @@ h3 {
   transform:scale(1.08);
 
 }
+@media (max-width: 600px) {
+
+  .carousel-image {
+    width: 280px;
+    height: 380px;
+  }
+
+  .arrow {
+    width:35px;
+    height:35px;
+    font-size:24px;
+  }
+
+}
