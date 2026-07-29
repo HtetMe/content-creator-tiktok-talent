@@ -67,29 +67,26 @@
     <h2>Creator moments and personal highlights.</h2>
   </div>
 
-  <div class="photo-slider">
+<section id="photos" class="section photos">
 
-    <div class="photo-card">
-      <img src="assets/profile.jpg" alt="Htet profile photo">
+  <div class="section-heading reveal">
+    <p class="eyebrow">Photo Portfolio</p>
+    <h2>Creator moments and personal highlights.</h2>
+  </div>
+
+  <div class="photo-carousel">
+
+    <button class="arrow left" onclick="changePhoto(-1)">‹</button>
+
+    <div class="carousel-image">
+      <img id="portfolioImage" src="assets/profile.jpg" alt="Htet Me Me Hlaing photo">
     </div>
 
-    <div class="photo-card">
-      <img src="assets/portfolio-01.jpg" alt="Htet photo 1">
-    </div>
-
-    <div class="photo-card">
-      <img src="assets/portfolio-02.jpg" alt="Htet photo 2">
-    </div>
-
-    <div class="photo-card">
-      <img src="assets/portfolio-03.jpg" alt="Htet photo 3">
-    </div>
-
-    <div class="photo-card">
-      <img src="assets/portfolio-04.jpg" alt="Htet photo 4">
-    </div>
+    <button class="arrow right" onclick="changePhoto(1)">›</button>
 
   </div>
+
+</section>
 
 </section>
     <!-- About section: positions computing as a strength without making IT the main identity -->
